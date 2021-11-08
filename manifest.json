@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "version": "0.1",
+  "name": "YouTube Playback Speed Tool",
+  "description": "YouTube Playpack Speed Tool Extention For Chrome",
+  "permissions": ["tabs", "*://*.youtube.com/*"],
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "js": ["js/speedController.js"]
+    }
+  ]
+}
