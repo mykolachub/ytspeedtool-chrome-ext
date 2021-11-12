@@ -3,6 +3,11 @@ const DEFAULT_SPEEDRATE = 1;
 const CONSIDERABLE_DELAY = 500; // LOL
 const SPEED_OPTIONS = [0.25, 0.5, 0.75, 1.0, 1.25, 1.5, 1.75, 2.0];
 
+/**
+ * manifest.js 0.1
+ * "permissions": ["tabs", "*://*.youtube.com/*"],
+ */
+
 const renderSpeedController = () => {
   const styles = `
   <style>
